@@ -1,0 +1,50 @@
+.navMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color:rgb(91, 7, 7) ;
+    color: white;
+}
+
+.navLeft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    padding-right: 10px;
+}
+
+.navAvatar{
+    margin-right: 20px;
+}
+
+.navLogin{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.navItem{
+    cursor: pointer;
+}
+
+.x1{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.navAvatar svg{
+    font-size: 30px;
+    cursor: pointer;
+}
+
